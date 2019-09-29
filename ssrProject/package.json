@@ -1,0 +1,25 @@
+{
+  "name": "ssrProject",
+  "version": "1.0.0",
+  "description": "My sweet Nuxt.js project",
+  "author": "ygw",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
